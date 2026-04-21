@@ -74,24 +74,6 @@ async def join(ctx):
     await channel.connect()
 
 
-# @bot.command(name='play')
-# async def play(ctx, url):
-#     # Si el bot no está en un canal de voz, intenta unirse al del usuario
-#     if ctx.voice_client is None:
-#         if ctx.author.voice:
-#             await ctx.author.voice.channel.connect()
-#         else:
-#             await ctx.send("¡Debes estar en un canal de voz para que me una!")
-#             return
-#     # Detener audio actual si existe para evitar solapamiento
-#     if ctx.voice_client.is_playing():
-#         ctx.voice_client.stop()
-#
-#     async with ctx.typing():
-#         player = await YTDLSource.from_url(url, loop=bot.loop, stream=True)
-#         ctx.voice_client.play(player, after=lambda e: print(f'Error del reproductor: {e}') if e else None)
-#     await ctx.send(f'Reproduciendo ahora: **{player.title}**')
-
 @bot.command(name='play')
 async def play(ctx, url):
     if ctx.voice_client is None:
