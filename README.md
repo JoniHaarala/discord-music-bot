@@ -30,17 +30,17 @@ Before running the bot, make sure you have:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/discord-music-bot.git
+git clone https://github.com/JoniHaarala/discord-music-bot.git
 cd discord-music-bot
 ````
 
-2. Install dependencies:
+<!--2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-```
+``` -->
 
-If you don’t have a `requirements.txt`, install manually:
+2. Install dependencies:
 
 ```bash
 pip install discord.py yt-dlp python-dotenv
