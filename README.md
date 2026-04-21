@@ -113,4 +113,6 @@ This project is free to use for personal and educational purposes. Commercial po
 
 ## ✨ Author Notes
 
-Built with Python 3.12.x, discord.py, and yt-dlp
+More functionalities coming soon...
+
+Built with Python, discord.py, and yt-dlp
